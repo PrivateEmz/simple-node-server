@@ -1,5 +1,5 @@
 var http = require('http');
-var port = 8080;
+const port = 8080;
 //create a server object:
 http.createServer(function (req, res) {
   res.write('Node is running on port: '+port); //write a response to the client
